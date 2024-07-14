@@ -1,21 +1,29 @@
 /* common shared styles */
 nav h3{
-        font-family: 'lato',sans-serif;
+    font-family: 'lato',sans-serif;
 }
 nav ul li{
     font-family: 'open sans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
 .text-primary{
     color: #FD6E0A;
 }
 .btn-primary{
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
     color: white;
     font-size: 25px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.section-ttl{
+    color: #181818;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
 }
 /* nav related styles */
 nav{
@@ -44,13 +52,126 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
 }
+.bnr-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0px;
+    font-family: 'lato',sans-serif;
+    font-weight: 200;
+}
+.bnr-title{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: 'lato',sans-serif;
+}
+.bnr-p{
+    font-family: 'open sans',sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 15px;
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
