@@ -97,16 +97,25 @@ nav a{
     font-size: 15px;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: #00ffed;
-    margin: 130px 255px;
+    margin: 130px 0px;
 }
-
-
+.about-main-info{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'lato',sans-serif;
+}
+.about-info{
+    text-align: center;
+}
 
 
 
