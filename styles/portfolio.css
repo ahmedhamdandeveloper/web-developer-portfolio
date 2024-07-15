@@ -10,6 +10,9 @@ nav ul li{
 .text-primary{
     color: #FD6E0A;
 }
+.text-primary-2{
+    color: blue;
+}
 .btn-primary{
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -21,9 +24,16 @@ nav ul li{
 }
 .section-ttl{
     color: #181818;
-    align-items: center;
+    text-align: center;
     font-size: 45px;
     font-weight: 700;
+    font-family: 'lato',sans-serif;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'lato',sans-serif;
 }
 /* nav related styles */
 nav{
@@ -92,7 +102,8 @@ nav a{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background-color: #FFF8F3;
+    background-color: #00ffed;
+    margin: 130px 255px;
 }
 
 
