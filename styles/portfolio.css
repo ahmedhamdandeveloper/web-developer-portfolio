@@ -119,10 +119,13 @@ main{
 #what-i-do-description{
     padding: 30px 150px;
 }
+/*skill related styles*/
 .skills-container{
     display: flex;
     font-family: 'lato',sans-serif;
-    padding: 40px 10px;
+}
+.skill{
+    padding: 30px;
 }
 .skill-discription{
     color: #757575;
