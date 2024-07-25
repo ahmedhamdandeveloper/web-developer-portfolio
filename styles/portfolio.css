@@ -105,7 +105,7 @@ main{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background-color: #00ffed;
+    background-color: #FFF8F3;
     margin: 130px 0px;
 }
 .about-main-info{
@@ -116,10 +116,10 @@ main{
 .about-info{
     text-align: center;
 }
+/*skill related styles*/
 #what-i-do-description{
     padding: 30px 150px;
 }
-/*skill related styles*/
 .skills-container{
     display: flex;
     font-family: 'lato',sans-serif;
