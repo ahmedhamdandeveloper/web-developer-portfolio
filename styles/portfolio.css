@@ -1,4 +1,5 @@
 /* common shared styles */
+
 nav h3{
     font-family: 'lato',sans-serif;
 }
@@ -25,7 +26,7 @@ nav ul li{
 .section-ttl{
     color: #181818;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'lato',sans-serif;
 }
@@ -35,7 +36,9 @@ nav ul li{
     font-size: 15px;
     font-family: 'lato',sans-serif;
 }
+
 /* nav related styles */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -59,7 +62,9 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+
 /* header related styles */
+
 .header{
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
@@ -101,7 +106,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section styles */
+
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -116,25 +123,50 @@ main{
 .about-info{
     text-align: center;
 }
+main section{
+    margin-top: 130px
+}
+
 /*skill related styles*/
+
 #what-i-do-description{
     padding: 30px 150px;
 }
 .skills-container{
     display: flex;
     font-family: 'lato',sans-serif;
-    gap: 24px;
+    gap: 25px;
 }
 .skill{
-    padding: 30px;
+    padding: 70px 4px;
     background-color: #FFFFFF;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px #171717;
+    box-shadow: 10px 6px 20px 0px #A3A3A3;
 }
 .skill-discription{
     color: #757575;
     font-size: 15px;
+    padding: 10px
 }
+.skill-title{
+    padding-left: 10px;
+}
+.skill-pic{
+    padding-left: 10px;
+}
+
+/* resume section styles */
+
+.resume-column-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'lato',sans-serif;
+}
+
+
+
+
 
 
 
