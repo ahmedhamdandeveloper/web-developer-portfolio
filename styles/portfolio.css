@@ -21,7 +21,17 @@ nav ul li{
     color: white;
     font-size: 25px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 15px 30px;
+}
+.button-primary{
+   border-radius: 5px;
+   font-size: 25px;
+   font-weight: 700; 
+   color: #FD6E0A;
+   background-color: #FFF;
+   border: 2px solid #FD6E0A;
+   padding: 15px 14px;
+   margin-left: 20px; 
 }
 .section-ttl{
     color: #181818;
