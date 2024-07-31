@@ -205,9 +205,9 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact-from input, textarea{
+.contact-from input[type="text"], .contact-from input[type="email"], textarea{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
@@ -215,8 +215,21 @@ footer{
     border: 0px;
     width: 100%;
 }
-
-
+.social-icon a{
+    margin-right: 25px;
+    text-align: left;
+}
+#section-ttl-2{
+    text-align: left;
+}
+.footer-description{
+    color: #474747;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'lato',sans-serif; 
+    margin-bottom: 28px;
+}
 
 
 
